@@ -9,11 +9,14 @@ function Home(){
         <p className="card-text">
           I am a Student, Coder, Developer !!!
         </p>
-        <button className="btn">Download Resume</button>
+        <a href="https://drive.google.com/file/d/1Dc_2aZOHGjiLdv6mT2EAoQZZnWh-vK-X/view" target="_blank" rel="noreferrer" className="btn" download="Resume.pdf">
+        Download Resume
+        </a>
+
     </div>
     <div className="col-md-4 img-container p-4">
     <div className="bg"></div>
-      <img src={img} className="img-fluid" alt="profile image" />
+      <img src={img} className="img-fluid" alt="profile" />
     </div>
 </div>
 
