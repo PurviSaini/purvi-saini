@@ -15,22 +15,28 @@ function Contact(){
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
                 <div className="social"><i className="fa fa-twitter" /> Twitter handle: </div>
-                <div className="description">link</div>
+                <div className="description">@PurviSaini45</div>
+            </div>
+    
+            <div className="container-fluid  d-flex justify-content-between wrapper">
+                <div className="social"><i className="fa fa-linkedin" />  Linked Id: </div>
+                <div className="description"><a href="https://www.linkedin.com/in/purvi-saini-a30a23246" className="contact-links">Purvi Saini</a></div>
             </div>
 
+
             <div className="container-fluid  d-flex justify-content-between wrapper">
-                <div className="social"><i className="fa fa-linkedin" /> Linked in Id: </div>
-                <div className="description">Delhi, India</div>
+                <div className="social"><i className="fa fa-briefcase" />  Devpost: </div>
+                <div className="description"><a href="https://devpost.com/purvisaini157" className="contact-links">Purvi Saini's Projects</a></div>
             </div>
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
                 <div className="social"><i className="fa fa-snowflake-o" /> Website: </div>
-                <div className="description">Delhi, India</div>
+                <div className="description"><a href="#" className="contact-links">Portfolio Website</a></div>
             </div>
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
                 <div className="social"><i className="fa fa-credit-card" /> Email: </div>
-                <div className="description">dummy123@gmail.com</div>
+                <div className="description">purvisaini157@gmail.com</div>
             </div>
 
         </div>
