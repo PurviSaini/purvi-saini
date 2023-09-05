@@ -14,8 +14,7 @@ background: linear-gradient(50deg, rgba(251,224,21,1) 0%, rgba(211,247,161,1) 48
 background: linear-gradient(50deg,  rgba(153,233,237,1) 0%,rgba(211,247,161,1) 48%,rgba(251,224,21,1) 97%);
 -webkit-text-fill-color: transparent;
 -webkit-background-clip: text;
-font-weight: bolder;
-}
+    }
 
 .social{
     background-color: #3B3A4D;
@@ -26,7 +25,7 @@ font-weight: bolder;
 .social:hover{
     border: 1px rgb(52, 225, 248) dotted;
 }
-i{
+i,.tech-stack{
     background-color: #3B3A4D;
 }
 
