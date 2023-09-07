@@ -31,7 +31,7 @@ function Contact(){
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
                 <div className="social"><i className="fa fa-snowflake-o" /> Website: </div>
-                <div className="description"><a href="#" className="contact-links">Portfolio Website</a></div>
+                <div className="description"><a href="#home" className="contact-links">Portfolio Website</a></div>
             </div>
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
