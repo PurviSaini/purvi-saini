@@ -9,8 +9,6 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <!-- jquery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <!-- /font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- bootstrap -->
@@ -19,12 +17,25 @@
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
    
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    
-    <title>Purvi Saini</title>
+    <style>
+      #loading{
+        position: absolute;
+        top: 50%;
+        right: 50%;
+      }
+    </style>
+    <title>Purvi Saini </title>
   </head>
-  <body>
+  <body onload="loadFun()">
+    <div id="loading" class="spinner-border text-dark" role="status"><span class="sr-only">Loading...</span></div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
 
   </body>
+  <script>
+    let load=document.getElementById("loading");
+    function loadFun(){
+      load.style.display='none';
+    }
+  </script>
 </html>
