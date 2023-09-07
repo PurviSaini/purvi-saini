@@ -14,7 +14,7 @@ function Home(){
         </a>
 
     </div>
-    <div className="col-md-4 img-container p-4">
+    <div className="mx-5 col-md-4 img-container p-4">
     <div className="bg"></div>
       <img src={img} className="img-fluid" alt="profile" />
     </div>
