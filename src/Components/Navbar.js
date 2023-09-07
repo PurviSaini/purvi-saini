@@ -3,9 +3,9 @@ import "./Navbar.css";
 
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark p-0 mt-1">
+    <nav className="navbar fixed-top navbar-expand-lg navbar-dark bg-dark p-0 mt-1">
   <div className="container-fluid fs-6">
-    <a className="navbar-brand" href="#">
+    <a className="navbar-brand" href="#home">
       PS
     </a>
     <button
@@ -37,17 +37,17 @@ function Navbar() {
           </a>
           </li>
           <li>
-          <a className="nav-link " aria-current="page" href="#">
+          <a className="nav-link " aria-current="page" href="#experience">
             Experience
           </a>
           </li>
           <li>
-          <a className="nav-link " aria-current="page" href="#">
+          <a className="nav-link " aria-current="page" href="#education">
             Education
           </a>
         </li>
         <li>
-          <a className="nav-link " aria-current="page" href="#">
+          <a className="nav-link " aria-current="page" href="#projects">
             Projects
           </a>
         </li>
