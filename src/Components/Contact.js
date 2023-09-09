@@ -1,7 +1,7 @@
 import "./Contact.css"
 function Contact(){
     return(
-        <div className=" my-1 contact container rounded d-flex justify-content-evenly flex-column align-items-end px-5" id="contact">
+        <div className=" my-5 contact container rounded d-flex justify-content-evenly flex-column align-items-end px-5" id="contact">
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
                  <div className="social"> <i className="fa fa-map-marker" /> Based in: </div>
