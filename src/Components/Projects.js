@@ -3,37 +3,50 @@ function Projects(){
     return(
         <>
         <h2>Projects</h2>
-        <div className="my-5" id="projects">
-        <section id="gallery" className="p-2 mt-5">
-        <div className="container mt-5 mx-auto py-12">
-        <div className="grid">
-        <div style={{ gridRow: 1, gridColumn: "1/4", background: "#fca" }}>
-            <img src="https://source.unsplash.com/550x335/?sunset" />
+        <div className="p-2 my-5 d-flex justify-content-center align-items-center flex-wrap" id="projects">
+        <div className=" col-md-4 img-container p-4">
+        <div className="bg"></div>
+        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/541/020/datas/medium.png" className="img-fluid" alt="profile" style={{borderRadius:"10px"}} useMap="#teamhub" />
         </div>
-        <div style={{ gridRow: 1, gridColumn: "4/6" }}>
-            <img src="https://source.unsplash.com/300x335/?river" />
+        <map name="teamhub">
+        <area shape="rect" coords="0,0,500,500" href="https://github.com/PurviSaini/TeamHub" target="_blank" alt="githb repo" />
+        </map>
+
+        <div className=" col-md-4 img-container p-4">
+        <div className="bg"></div>
+        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/555/520/datas/medium.png" className="img-fluid" alt="profile" style={{borderRadius:"10px"}} useMap="#reporeport" />
         </div>
-        <div style={{ gridRow: 1, gridRowEnd: 3, gridColumn: "6/8" }}>
-            <img src="https://source.unsplash.com/415x670/?flower" />
+        <map name="reporeport">
+        <area shape="rect" coords="0,0,500,500" href="https://github.com/PurviSaini/RepoReport" target="_blank" alt="githb repo" />
+        </map>
+
+        <div className=" col-md-4 img-container p-4">
+        <div className="bg"></div>
+        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/266/935/datas/medium.png" className="img-fluid" alt="profile" style={{borderRadius:"10px"}} useMap="#carbo" />
         </div>
-        <div style={{ gridRow: 1, gridColumn: "9/16" }}>
-            <img src="https://source.unsplash.com/300x335/?snow" />
+        <map name="carbo">
+        <area shape="rect" coords="0,0,500,500" href="https://github.com/PurviSaini/CARbo" target="_blank" alt="githb repo" />
+        </map>
+
+        <div className=" col-md-4 img-container p-4">
+        <div className="bg"></div>
+        <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/350/625/datas/medium.png" className="img-fluid" alt="profile" style={{borderRadius:"10px"}} useMap="#healthyme" />
         </div>
-        <div style={{ gridRow: 2, gridColumn: "1/3" }}>
-            <img src="https://source.unsplash.com/300x335/?mountains" />
+        <map name="healthyme">
+        <area shape="rect" coords="0,0,500,500" href="https://github.com/PurviSaini/Healthy-Me" target="_blank" alt="githb repo" />
+        </map>
+
+        <div className=" col-md-4 img-container p-4">
+        <div className="bg"></div>
+        <img src=" https://d112y698adiu2z.cloudfront.net/photos/production/software_thumbnail_photos/002/332/300/datas/medium.png" className="img-fluid" alt="profile" style={{borderRadius:"10px"}} useMap="#quizeria" />
         </div>
-        <div style={{ gridRow: 2, gridColumn: "3/6" }}>
-            <img src="https://source.unsplash.com/550x335/?food" />
-        </div>
-        <div style={{ gridRow: 2, gridColumn: "9/16" }}>
-            <img src="https://source.unsplash.com/300x335/?party,lights" />
-        </div>
-        </div>
-    </div>
-    </section>
+        <map name="quizeria">
+        <area shape="rect" coords="0,0,500,500" href="https://github.com/PurviSaini/Design-a-thon" target="_blank" alt="githb repo" />
+        </map>
 
         </div>
         </>
+    
     );
 }
 export default Projects;
