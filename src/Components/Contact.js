@@ -23,20 +23,14 @@ function Contact(){
                 <div className="description"><a href="https://www.linkedin.com/in/purvi-saini-a30a23246" className="contact-links">Purvi Saini</a></div>
             </div>
 
+            <div className="container-fluid  d-flex justify-content-between wrapper">
+                <div className="social"><i className="fa fa-credit-card" /> Email: </div>
+                <div className="description">purvisaini157@gmail.com</div>
+            </div>
 
             <div className="container-fluid  d-flex justify-content-between wrapper">
                 <div className="social"><i className="fa fa-briefcase" />  Devpost: </div>
                 <div className="description"><a href="https://devpost.com/purvisaini157" className="contact-links">Purvi Saini's Projects</a></div>
-            </div>
-
-            <div className="container-fluid  d-flex justify-content-between wrapper">
-                <div className="social"><i className="fa fa-snowflake-o" /> Website: </div>
-                <div className="description"><a href="#home" className="contact-links">Portfolio Website</a></div>
-            </div>
-
-            <div className="container-fluid  d-flex justify-content-between wrapper">
-                <div className="social"><i className="fa fa-credit-card" /> Email: </div>
-                <div className="description">purvisaini157@gmail.com</div>
             </div>
 
         </div>
