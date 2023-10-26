@@ -36,21 +36,6 @@ function Experience(){
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: '#0C011B', color: 'white' }}
-          contentArrowStyle={{ borderRight: '7px solid  #A1EBE3' }}
-          date="June'23 - August'23"
-          iconStyle={{ background: '#A1EBE3', color: 'white' }}
-        >
-          <h3 className="vertical-timeline-element-title p-1">Open Source Contributor</h3>
-          <h4 className="vertical-timeline-element-subtitle fs-6 fst-italic pb-1 ">Girl Script Summer of Code</h4>
-          <p>
-          Made contributions in a website that provide free resources for different categories.
-Fixed documentation bugs, added new categories and added free tools.
-          </p>
-        </VerticalTimelineElement>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: '#0C011B', color: 'white' }}
           contentArrowStyle={{ borderRight: '7px solid  yellow' }}
           date="June'23 - August'23"
           iconStyle={{ background: 'yellow', color: 'white' }}
