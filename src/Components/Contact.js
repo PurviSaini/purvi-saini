@@ -20,7 +20,7 @@ function Contact(){
     
             <div className="container-fluid  d-flex justify-content-between wrapper">
                 <div className="social"><i className="fa fa-linkedin" />  Linked Id: </div>
-                <div className="description"><a href="https://www.linkedin.com/in/purvi-saini-a30a23246" className="contact-links">Purvi Saini</a></div>
+                <div className="description"><a href="https://www.linkedin.com/in/purvi-saini-325771316/" className="contact-links">Purvi Saini</a></div>
             </div>
 
             <div className="container-fluid  d-flex justify-content-between wrapper">

@@ -9,9 +9,9 @@ function Home(){
         <p className="card-text">
           I am a Student, Coder, Developer !!!
         </p>
-        <a href="https://drive.google.com/file/d/1Dc_2aZOHGjiLdv6mT2EAoQZZnWh-vK-X/view" target="_blank" rel="noreferrer" className="btn" download="Resume.pdf">
+        {/* <a href="https://drive.google.com/file/d/1Dc_2aZOHGjiLdv6mT2EAoQZZnWh-vK-X/view" target="_blank" rel="noreferrer" className="btn" download="Resume.pdf">
         Download Resume
-        </a>
+        </a> */}
 
     </div>
     <div className="mx-5 col-md-4 img-container p-4">
